@@ -16,6 +16,7 @@ public class Runner {
 
 
         var circleClass = Circle.class;
+        circleClass.getMethods()[1].getModifiers();
 
         System.out.println(circleClass.getName());
         System.out.println(circleClass.getSimpleName());
